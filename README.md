@@ -9,10 +9,8 @@ The following assignment has two objectives
 \_\_toString() is one of a number of magic methods - sometimes called "dunder" methods which can be overridden in order to make the resultant object behave in a particular way when used in a particular context.
 in the case of the \_\_toString_( ) function we control how the object behaves when used like a string - e.g. printed or concatenated.
 
-The following UML diagram describes different a Car Insurance Policy. 
-
 # Part 1
-Create the classes as described in the UML diagram for the Policy Object
+Create the classes as described in the UML diagram for the CarPolicy Object
 
 ![alt text](CarPolicy.png)
 
@@ -30,5 +28,6 @@ public function getTotalYearsNoClaims()
      return $interval->format("%y");
 }
 ```
+When your CarPolicy class is complete, type php testCarPolicy.php to test your class.
 
 # Part 2
