@@ -39,6 +39,7 @@ The new methods work in the following way:
 The getDiscount() method should calculate and return the discount based on the following rules:
 - Policies which have not had a claim for between 3 and 5 years should get a discount of 10 percent.
 - Policies which have not had a claim for more than 5 years should get a discount of 15 percent.
+
 The getDiscountedPremium() method should return the yearlyPremium with the appropriate discount amount subtracted.
 
 
