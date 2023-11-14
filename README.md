@@ -33,7 +33,7 @@ When your CarPolicy class is complete, type php testCarPolicy.php to test your c
 # Part 2
 Modify the CarPolicy class to add the getDiscount() and getDiscountedPremium() methods as follows
 
-![alt text](CarPolicyV2.png)
+
 The new methods work in the following way:
 
 The getDiscount() method should calculate and return the discount based on the following rules:
