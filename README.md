@@ -31,7 +31,7 @@ public function getTotalYearsNoClaims()
 When your CarPolicy class is complete, type php testCarPolicy.php to test your class.
 
 # Part 2
-Modify the CarPolicy class to add the getDiscount() and getDiscountedPremium() methods as follows
+Modify the CarPolicy class to add the getDiscount() and getDiscountedPremium() methods as follows. Save this code in a file called CarPolicy2.php
 
 ![alt text](CarPolicyV2.png)
 
