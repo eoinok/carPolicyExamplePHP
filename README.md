@@ -19,17 +19,17 @@ Create the classes as described in the UML diagram for the Policy Object
 Follow the names of the classes, attributes and methods exactly as in the diagram
 
 In the policy class the \__str__() function should return the policy number followed by a colon, then a space, followed by the name of the policy holder. So policy number 1234 held by John Smith should retrun "1234: John Smith"
-The other two functions of the class are simple getters which will return the attributes they are associated with.
 
-To run the test_policy.py program that is supplied type 
-
-python -m ptyest test_policy.py
-
-at the command prompt. You may have to run
-
-pip install pytest 
-
-to ensure pytest is installed
+The getTotalYearsNoClaims() function is as follows
+```
+public function getTotalYearsNoClaims()
+{
+     $currentDate = new DateTime();
+     $lastDate= new DateTime($this->dateOfLastClaim);
+     $interval = $currentDate->diff($lastDate);
+     return $interval->format("%y");
+}
+```
 
 # Part 2
 Create the Van class as it is described in the following diagram
