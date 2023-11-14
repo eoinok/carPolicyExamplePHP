@@ -41,7 +41,8 @@ The getDiscount() method should calculate and return the discount based on the f
 - Policies which have not had a claim for between 3 and 5 years should get a discount of 10 percent.
 - Policies which have not had a claim for more than 5 years should get a discount of 15 percent.
 
-The getDiscountedPremium() method should return the yearlyPremium with the appropriate discount amount subtracted.
+The getDiscountedPremium() method should return the yearlyPremium with the appropriate discount amount subtracted. Test Part 2 by typing ***php testCarPolicy2.php*** into the command line.
 
 
 # Part 3
+Create a file called processCarPolicy.php which will gather info from the form carPolicyForm.html and use it to instantiate a new CarPolicy object from the file you created in Part 2 (i.e. include("CarPolicy2.php"). Use the information you have gathered from the user to calculated their initial premium and their discounted premium. Output both of these values to the screen.
