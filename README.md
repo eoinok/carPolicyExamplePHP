@@ -16,7 +16,7 @@ Create the classes as described in the UML diagram for the CarPolicy Object
 
 Follow the names of the classes, attributes and methods exactly as in the diagram
 
-In the policy class the \_\_toString() function should return the policy number followed by a colon, then a space, followed by the name of the policy holder. So policy number 1234 held by John Smith should retrun "1234: John Smith"
+In the policy class the \_\_toString() function should return "PN" followed by a colon, then a space, followed by the name of the policy holder. So policy number 1234 should retrun "PN: 1234"
 
 The getTotalYearsNoClaims() function is as follows
 ```
